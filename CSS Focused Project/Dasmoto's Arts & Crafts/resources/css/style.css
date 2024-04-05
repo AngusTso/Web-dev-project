@@ -1,0 +1,33 @@
+h1{
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    font-family: Helvetica;
+    background-image: url(../pattern.jpeg);
+}
+
+h3{
+    font-size: 32px;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: white;
+    background-color: mediumspringgreen;
+}
+
+h3.Frame{
+    background-color: lightcoral;
+}
+
+h3.Paint{
+    background-color: skyblue;
+}
+
+h4{
+    font-size: 24px;
+}
+
+p span{
+    color:blue;
+    font-weight: bold;
+    font-family: Helvetica;
+}

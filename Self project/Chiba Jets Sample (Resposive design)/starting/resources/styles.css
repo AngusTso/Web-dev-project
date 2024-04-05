@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: white;
+    font-size: 16px;
+    font-family: "Anta", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/** nav section **/
+nav{
+    background-color: rgb(200, 31, 31);
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5rem;
+    margin-right: 2rem;
+    color: white;
+    font-size: 1.5rem;
+}
+
+ul li:hover{
+    color: red;
+    background-color: white;
+    cursor: pointer;
+}
+
+.logo{
+    height: 4rem;
+    width: 4rem;
+}
+
+/** about section **/
+#about{
+    width: 100%;
+    height: 30rem;
+    background-image: url(./img/splash_image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.banner{
+    width: 100%;
+    padding: 1rem;
+    background-color: white;
+    color: red;
+    text-align: center;
+}
+
+.banner h1{
+    font-size: 3rem;
+}
+
+/** player section **/
+#players{
+    margin-top: 2rem;
+}
+
+#players h2{
+    font-size: 2rem;
+    text-align: center;
+    color: red;
+}
+
+.players-grid{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    margin-bottom: 2rem;
+}
+
+.players-grid img{
+    height: 15rem;
+    width: 12rem;
+}
+
+.players-grid h4{
+    color: rgb(200, 31, 31);
+    text-align: center;
+    padding: 1rem;
+}
+/**Mascot **/
+#mascot{
+    width: 100%;
+    height: 30rem;
+    background-image: url(./img/jumbosplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+}
+
+#mascot .banner{
+    width: 30%;
+    padding: 3rem;
+    background-color: black;
+    color: white;
+    opacity: 0.9;
+}
+/** news **/
+#news{
+    margin-top: 2rem;
+    text-align: center;
+    color: red;
+    margin-bottom: 2rem;
+}
+#news h1{
+    padding: 2rem;
+    font-size: 2rem;
+}
+.news-container{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-evenly;
+}
+.news-container div img{
+    height: 15rem;
+    width: 15rem;
+}
+
+@media only screen and (max-width: 800px){
+    .news-container{
+        display: flex;
+        gap: 2rem;
+        flex-direction: column;
+    }
+
+    nav{
+        background-color: rgb(200, 31, 31);
+        display: flex;
+        flex-direction: column;
+    }
+
+    ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 5rem;
+        margin-right: 2rem;
+        color: white;
+        font-size: 1.5rem;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+
+    .logo{
+        height: 4rem;
+        width: 4rem;
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .players-grid{
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-bottom: 2rem;
+    }
+}
+
+footer{
+    background-color: black;
+    padding: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    color: white;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+footer img{
+    height: 6rem;
+    width: 6rem;
+}

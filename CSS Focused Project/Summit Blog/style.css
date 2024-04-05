@@ -1,0 +1,49 @@
+.nav-link{
+    text-decoration: none;
+  }
+  
+  a{
+    color: coral;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  a:hover{
+    color: pink;
+    text-decoration: none;
+  }
+  
+  .btn{
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: gray;
+    padding: 10px;
+    border: 1px solid black;
+    font-family: 'Raleway', sans-serif;
+    box-shadow: 1px 3px;
+  }
+  .btn:hover{
+    color: black;
+    background-color: white;
+  }
+  
+  .btn:active{
+    box-shadow: 0px 0px;
+    transition: box-shadow 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+  
+  .activity{
+    border: 1px solid black;
+    border-radius: 50px;
+  }
+  
+  .activity:hover{
+    background-color: white;
+  }
+  
+  .activity:active{
+    color: black;
+    background-color: gray;
+  }
+  

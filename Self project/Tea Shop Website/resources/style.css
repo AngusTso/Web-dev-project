@@ -1,0 +1,145 @@
+/**Universal**/
+body{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+*{
+    box-sizing: border-box;
+}
+/**Header section**/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+header img{
+    height: 50px;
+    margin-left: 10px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+nav ul a{
+    margin-left: 15px;
+    margin-right: 10px;
+    color: aliceblue;
+}
+
+nav ul a:hover{
+    margin-left: 15px;
+    margin-right: 10px;
+    color: red;
+}
+
+nav ul a:active{
+    margin-left: 15px;
+    margin-right: 10px;
+    color:aliceblue;
+    text-decoration: none;
+}
+
+/**Mission section**/
+.Mission{
+    z-index: 0;
+    margin-top: 69px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    display: inline-block;
+}
+.Mission img{
+    height: 700px;
+    width: 1200px;
+}
+.Mission-banner{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+}
+
+/** Tea section **/
+.Tea{
+    width: 1000px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.tea-image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tea-image img{
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+.tea-image h4{
+    margin-top: 10px;
+}
+
+/** Location **/
+.Locations{
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+#Locations-title{
+    position: absolute;
+    top: 15%;
+    left: 48%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+.Locations-container{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.Locations-item{
+    background-color: black;
+    width: 300px;
+    text-align: center;
+    margin-right: 40px;
+    opacity: 1;
+}
+
+/**Footer **/
+footer{
+    text-align: center;
+    height: 200px;
+}
+footer h6{
+    text-align: left;
+}
